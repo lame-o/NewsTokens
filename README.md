@@ -35,3 +35,16 @@ python main.py
 - Apify account
 - Discord bot token
 - Internet connection for API access
+
+## Example Output
+
+When a match is found between news articles and a token, you'll receive a Discord notification like this:
+
+![Example Discord Notification](images/example_output.png)
+
+The notification includes:
+- Token information (name, chain, description)
+- Token image (if available)
+- Total number of related articles
+- Links to relevant resources
+- Summary of the most relevant news articles
